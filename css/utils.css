@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mx-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.px-1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.jusfity-center{
+    justify-content: center;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.display-none{
+    display: none;
+}
+
+.self-end{
+    align-self: flex-end;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.width100{
+    width: 100%;
+}
+
+.height100{
+    height: 100%;
+}
