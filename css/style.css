@@ -2,58 +2,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     width: 80%;
-    /* border: 1px solid red; */
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 15px;
 }
 
 
-.navbar{
-    width: 25%;
-    /* border: 1px solid red; */
-    background-color: #F6F6F6;
+
+
+/* large mobile coding start */
+
+@media screen and (max-width: 425px){
+    .container{
+        width: 100%;
+    }
 }
 
-input[type=search]{
-    width: 100%;
-    height: 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'ubuntu',sans-serif;
-    font-size: 18px;
-    padding: 10px;
+/* large mobile coding end */
+
+/* medium mobile coding start */
+
+@media screen and (max-width: 375px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .
 }
 
-.section{
-    width: 75%;
-    flex-direction: column;
-    /* border: 1px solid red; */
-}
-
-.product-div{
-    width: 30%;
-    /* border: 1px solid red; */
-    padding: 1rem;
-}
-
-.product-img{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.product-price{
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.product-name{
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-
-}
+/* medium mobile coding end */
